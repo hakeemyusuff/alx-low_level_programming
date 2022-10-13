@@ -13,3 +13,5 @@
 6.Size is not grandeur, and territory does not make a nation - The script prints the size of various types on the computer it is compiled and run on.
 
 100.Intel - It generates assembly code in intel syntax
+
+101.Unix is basically a simple operating system - It print to standard error.
