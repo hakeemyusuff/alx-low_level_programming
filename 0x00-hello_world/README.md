@@ -7,3 +7,5 @@
 3.Name - It compiles a C file and creates an executable named cisfun.
 
 4.Hello, puts - This is a C program that prints exactly "Programming is like building a multilingual puzzle,
+
+5.Hello, printf - It print exactly with proper grammar, but the outcome is a piece of art,, followed by a new line.
