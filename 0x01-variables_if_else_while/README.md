@@ -7,3 +7,5 @@
 3.alphABET - This program prints the alphabet in lowercase, and then in uppercase, followed by a new line.
 
 4-print_alphabt.c - This program prints all alphabets in lowercase except the letter q and e.
+
+5-print_numbers.c - This program  prints all single digit numbers of base 10 starting from 0, followed by a new line.
