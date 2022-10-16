@@ -5,3 +5,5 @@
 2. This program prints the alphabet in lowercase, followed by a new line.
 
 3.alphABET - This program prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+
+4-print_alphabt.c - This program prints all alphabets in lowercase except the letter q and e.
