@@ -1,1 +1,1 @@
-0-putchar.c - This program  prints _putchar, followed by a new line.
+0._putchar - This program prints _putchar.
