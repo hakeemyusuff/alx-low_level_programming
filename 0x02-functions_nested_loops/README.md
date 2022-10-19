@@ -9,3 +9,5 @@
 4._isalpha.c - This program checks for alphabetic character Returns 1 if c is a letter, lowercase or uppercase Returns 0 otherwise
 
 5.sign.c This program prints the sign of a number Returns 1 and prints + if n is greater than zero, Returns 0 and prints 0 if n is zero, Returns -1 and prints - if n is less than zero.
+
+6._abs - This program computes the absolute value of an integer.
