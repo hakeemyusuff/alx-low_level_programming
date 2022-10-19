@@ -7,3 +7,5 @@
 3.-islower.c - This program checks for lowercase characte and return 1 if true return 0 if otherwise.
 
 4._isalpha.c - This program checks for alphabetic character Returns 1 if c is a letter, lowercase or uppercase Returns 0 otherwise
+
+5.sign.c This program prints the sign of a number Returns 1 and prints + if n is greater than zero, Returns 0 and prints 0 if n is zero, Returns -1 and prints - if n is less than zero.
