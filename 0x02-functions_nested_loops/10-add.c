@@ -2,7 +2,7 @@
 
 /**
  * add - adds two integers and returns the result
- * @b: parameters to work on
+ * @a: parameters to work on
  * @b: parameters to work on
  * Return: sucess return result
  */
