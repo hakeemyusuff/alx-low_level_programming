@@ -5,3 +5,7 @@
 2-mul.c - The program multiplies two integers.
 
 3-print_numbers - This program prints the numbers from 0 to 9.
+
+4-print_most_numbers.c - This program print the numbers from 0 to 9 excluding 2 and 4.
+
+5-more_numbers.c - This program prints 10 times the numbers from 0 to 14.
