@@ -9,3 +9,7 @@
 4-print_most_numbers.c - This program print the numbers from 0 to 9 excluding 2 and 4.
 
 5-more_numbers.c - This program prints 10 times the numbers from 0 to 14.
+
+6-print_linr.c - This program draws a straight line in the terminal.
+
+7-print_diagonal.c - This program draws a diagonal line on the terminal.
