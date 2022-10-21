@@ -3,6 +3,7 @@
 
 /**
  * main - printing from 1 to 100
+ * Return: Always 0 (sucess)
  */
 
 int main(void)
