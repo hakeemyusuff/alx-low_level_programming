@@ -1,14 +1,15 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - printing from 1 to 100
  */
 
-void main(void)
+int main(void)
 {
 	int l;
 
-	for (l = 1; i <= 100; i++)
+	for (l = 1; l <= 100; l++)
 	{
 		if ((l % 3 == 0) && l % 5 != 0)
 		{
