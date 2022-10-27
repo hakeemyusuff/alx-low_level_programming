@@ -21,3 +21,7 @@
 10-add.c - This program adds two integers and returns the result.
 
 11-print_to_98.c - This program prints all natural numbers from n to 98, followed by a new line.
+
+100-times_table.c - prints the n times table starting with 0
+
+101-natural.c - This prograh compures and prints the sum of all the multiples of 3 and 5 below 1024.
