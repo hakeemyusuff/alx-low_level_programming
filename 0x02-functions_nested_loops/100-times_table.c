@@ -9,7 +9,7 @@ void print_times_table(int n)
 {
 	int a, b, r;
 
-	if ((n < 15) || (n > 0))
+	if ((n <= 15) && (n >= 0))
 	{
 	for (a = 0; a <= n; a++)
 	{
@@ -27,7 +27,9 @@ void print_times_table(int n)
 			else if (r < 100)
 			{
 				_putchar(' ');
+/*
 				_putchar(' ');
+*/
 			}
 			else
 			{
