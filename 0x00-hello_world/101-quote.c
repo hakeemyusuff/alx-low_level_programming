@@ -1,13 +1,13 @@
 #include <stdio.h>
+#include <unistd.h>
 
 /**
- * main - entry point
+ * main - printing to standard error
  *
- * Return: always 0 (suceess)
+ * Return: Always 0 (sucess)
  */
-
 int main(void)
 {
-	fprintf("stderr, and that piece of art is useful\" - Dora Korpar, 2015-10-19")
+	fprintf(stderr, "and that piece of art is useful\" -Dora Korpar,2015-10-19\n");
 	return (1);
 }
