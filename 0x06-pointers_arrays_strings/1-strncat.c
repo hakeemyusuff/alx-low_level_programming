@@ -5,6 +5,7 @@
  * @dest: destination
  * @src: source
  * @n: number of char to concatenates from src
+ * Return: char
  */
 
 char *_strncat(char *dest, char *src, int n)
@@ -25,7 +26,5 @@ char *_strncat(char *dest, char *src, int n)
 		i++;
 	}
 
-	if (i + len_dest < n)
-		dest[i] = '\0';
 	return (dest);
 }
