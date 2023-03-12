@@ -1,0 +1,14 @@
+Here is an algorithm for solving the problem of finding the minimum number of coins to make change for an amount of money:
+
+Verify that the number of arguments passed to the program is exactly 1. If not, print an error message and return 1.
+Parse the argument passed to the program using the atoi function.
+If the number passed as the argument is negative, print 0 and return.
+Initialize a counter variable to zero to keep track of the number of coins used.
+While the amount of money is greater than 0:
+a. If the amount of money is greater than or equal to 25, subtract 25 from the amount and increment the counter variable by 1.
+b. Else if the amount of money is greater than or equal to 10, subtract 10 from the amount and increment the counter variable by 1.
+c. Else if the amount of money is greater than or equal to 5, subtract 5 from the amount and increment the counter variable by 1.
+d. Else if the amount of money is greater than or equal to 2, subtract 2 from the amount and increment the counter variable by 1.
+e. Else, subtract 1 from the amount and increment the counter variable by 1.
+Print the value of the counter variable, followed by a new line.
+This algorithm uses a greedy approach, where the largest possible denomination is used as many times as possible until the remaining amount is smaller than that denomination. It is guaranteed to produce the minimum number of coins for any amount of money using the given denominations.
