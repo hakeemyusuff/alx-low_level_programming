@@ -5,7 +5,7 @@
  * main - prints no of coins to make change for an amount of money
  * @argc: argument count
  * @argv: cents to give change
- * return: 0 on sucess 1 when argument is not 1
+ * Return: 0 on sucess 1 when argument is not 1
  */
 
 int main(int argc, char *argv[])
@@ -18,11 +18,8 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 	number = atoi(argv[1]);
-	if (number < 0)
-		printf("0\n");
-
 	i = 0;
-	while(number > 0)
+	while (number > 0)
 	{
 		if (number >= 25)
 		{
