@@ -1,21 +1,24 @@
 #include "function_pointers.h"
 /**
- * array_iterator - execute function on each element
- * of an array
- * @array: given array
+ * int_index - searches for an integer
+ * @array: array with data
  * @size: size of the array
- * @action: pointer to function
- * Return: void
+ * @cmp: function pointer
+ * Return: count of integer
  */
-void array_iterator(int *array, size_t size, void (*action)(int))
+int int_index(int *array, int size, int (*cmp)(int))
 {
 int i;
 
-if (array == NULL || action == NULL)
-return;
+if (size <= 0)
+return (-1);
+if (array == NULL || cmp == NULL)
+return (-1);
 
-for (i = 0; i < (int) size; i++)
+for (i = 0; i < size; i++)
 {
-action(array[i]);
+if (cmp(array[i]) == 1)
+return (i);
 }
+return (-1);
 }
